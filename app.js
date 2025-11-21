@@ -4,7 +4,7 @@ var questionNumber = prompt("Hansı sualı cavablandırmaq istəyirsən? (1-8)")
 // !Sual-1
 if (questionNumber == 1) {
   var answer = prompt("1) Dünyanın ən böyük okeanı hansıdır?");
-  if (answer == "pacific") {
+  if (answer.toLowerCase() == "pacific") {
     alert("Düz cavab!");
   } else {
     alert("Səhv. Düz cavab: Pacific");
@@ -49,7 +49,7 @@ else if (questionNumber == 3) {
 // !Sual-6
  else if (questionNumber == 6) {
   var answer = prompt("6) Dünyanın ən böyük gölü hansıdı?");
-  if (answer.toLocaleLowerCase() == "xəzər") {
+  if (answer.toLowerCase() == "xəzər") {
     alert("Düz cavab!");
   } else {
     alert("Səhv. Düz cavab: Xəzər");
@@ -58,7 +58,7 @@ else if (questionNumber == 3) {
 // !Sual-7
 else if (questionNumber == 7) {
   var answer = prompt("7) Azərbaycan bayrağında neçə rəng var?");
-  if (answer.toLocaleLowerCase() == 3) {
+  if (answer.toLowerCase() == 3) {
     alert("Düz cavab!");
   } else {
     alert("Səhv. Düz cavab: 3");
@@ -67,7 +67,7 @@ else if (questionNumber == 7) {
 // !Sual-8
 else if (questionNumber == 8) {
   var answer = prompt("8) Dünyanın ən böyük okeanı hansıdır?");
-  if (answer.toLocaleLowerCase() == "sakit okean") {
+  if (answer.toLowerCase() == "sakit okean") {
     alert("Düz cavab!");
   } else {
     alert("Səhv. Düz cavab: Sakit okean");
